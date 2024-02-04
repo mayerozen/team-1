@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Prompt the user to enter a word
+echo "Please enter a word:"
+read user_input
+
+# Calculate the length of the entered word
+word_length=${#user_input}
+
+# Display the result
+echo "The length of the word '$user_input' is $word_length characters."
+
